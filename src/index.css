@@ -1,0 +1,15 @@
+@import "@fontsource/open-sans";
+@import "@fontsource/open-sans/600.css";
+@import "@fontsource/open-sans/700.css";
+@import "@fontsource/open-sans/800.css";
+@import "flowbite/src/themes/minimal";
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-weight-heading: 800;
+}
+
+h1 .text-heading {
+  font-weight: 800;
+}
