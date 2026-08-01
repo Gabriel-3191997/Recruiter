@@ -17,7 +17,7 @@ A job board platform tailored to assisted employers find the best for recruitmen
 
 - Site loads applicant's browse job by filtering per categories
 - Applicant view job description
-- Create/Login applicant's account in applying for any job of choice
+
 
 
 #### Work-Flow (Employer)
@@ -26,3 +26,7 @@ A job board platform tailored to assisted employers find the best for recruitmen
 - Track applications (Total Short-listed applicants, Overview applicants)
 - Scheduled interviews
 - Notification emails to shortlisted and unfortunate applicants
+
+
+
+Live Demo: 
