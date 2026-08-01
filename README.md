@@ -1,6 +1,6 @@
 # Recruiter
 
-A job board platform tailored to assisted employers find the best for recruitment. Also giving applicant the opportunity to get hired by recruiters.
+A job board platform tailored to assist employers find the best for recruitment. Also giving applicant the opportunity to get hired by recruiters,tailoring resume through the means of Artificial Intelligence.
 
 
 ### Features
