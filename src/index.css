@@ -2,14 +2,34 @@
 @import "@fontsource/open-sans/600.css";
 @import "@fontsource/open-sans/700.css";
 @import "@fontsource/open-sans/800.css";
-@import "flowbite/src/themes/minimal";
+@import "flowbite/src/themes/default";
 @import "tailwindcss";
 
 @theme {
-  --font-family-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Open Sans", ui-sans-serif, system-ui, sans-serif;
   --font-weight-heading: 800;
 }
 
 h1 .text-heading {
   font-weight: 800;
+}
+
+/* Custom scrollbar for the job listing area (desktop/laptop) */
+.job-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff #f3f4f6;
+}
+.job-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.job-scroll::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+.job-scroll::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 4px;
+}
+.job-scroll::-webkit-scrollbar-thumb:hover {
+  background: #e5e7eb;
 }

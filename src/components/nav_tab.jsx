@@ -6,7 +6,7 @@ import Hybrid from "../pages/jobs/hybrid";
 import Contract from "../pages/jobs/contract";
 import FullTime from "../pages/jobs/full-time";
 import Internship from "../pages/jobs/internship";
-import FreelanceJob from "../pages/jobs/freelance";
+// import FreelanceJob from "../pages/jobs/freelance";
 
 const TABS = [
   { key: "remote", label: "Remote", component: Remote },
@@ -15,7 +15,7 @@ const TABS = [
   { key: "contract", label: "Contract", component: Contract },
   { key: "full-time", label: "Full-time", component: FullTime },
   { key: "internship", label: "Internship", component: Internship },
-  { key: "freelance", label: "Freelance", component: FreelanceJob },
+  // { key: "freelance", label: "Freelance", component: FreelanceJob },
 ];
 
 function TabNav() {
@@ -44,7 +44,7 @@ function TabNav() {
       </ul>
 
       {/* Active tab content */}
-      <div className="w-full mt-4">
+      <div className="w-full md:mt-4 mt-2">
         <ActiveComponent />
       </div>
     </div>
@@ -52,4 +52,3 @@ function TabNav() {
 }
 
 export default TabNav;
-

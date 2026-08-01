@@ -33,13 +33,9 @@ function SignupForm() {
 
   return (
     <>
-      <div className="md:mt-15 mt-10 flex flex-col">
-        <form
-          class="max-w-sm mx-auto"
-          action="#"
-          method="get"
-          onSubmit={handleSubmit}
-        >
+      <div className="md:mt-15 mt-10 flex flex-wrap justify-center items-center px-4">
+        <fieldset className="border border-gray-300 rounded-lg bg-white w-full max-w-md p-6 md:p-8 shadow-sm">
+          <form class="mx-auto" action="#" method="get" onSubmit={handleSubmit}>
           <div class="mb-5">
             <label
               for="email-alternative"
@@ -50,7 +46,7 @@ function SignupForm() {
             <input
               type="email"
               id="email-alternative"
-              class="bg-neutral-secondary-medium border-none border-default-medium text-heading text-sm rounded-none block md:w-sm w-full px-3 py-2.5 placeholder:text-body"
+              class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-none block md:w-sm w-full px-3 py-2.5 placeholder:text-body"
               placeholder="name@flowbite.com"
               required
             />
@@ -104,6 +100,7 @@ function SignupForm() {
             </button>
           </div>
         </form>
+        </fieldset>
       </div>
     </>
   );

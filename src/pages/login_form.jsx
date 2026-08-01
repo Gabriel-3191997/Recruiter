@@ -33,77 +33,74 @@ function LoginForm() {
 
   return (
     <>
-      <div className="md:mt-15 mt-10 flex flex-col">
-        <form
-          class="max-w-sm mx-auto"
-          action="#"
-          method="get"
-          onSubmit={handleSubmit}
-        >
-          <div class="mb-5">
-            <label
-              for="email-alternative"
-              class="block mb-2.5 text-sm font-medium text-heading"
-            >
-              Your email
-            </label>
-            <input
-              type="email"
-              id="email-alternative"
-              class="bg-neutral-secondary-medium border-none border-default-medium text-heading text-sm rounded-none block md:w-sm w-full px-3 py-2.5 placeholder:text-body"
-              placeholder="name@flowbite.com"
-              required
-            />
-          </div>
-          <div class="mb-5">
-            <label
-              for="password-alternative"
-              class="block mb-2.5 text-sm font-medium text-heading"
-            >
-              Your password
-            </label>
-            <input
-              type="password"
-              id="password-alternative"
-              class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-none block md:w-sm w-full px-3 py-2.5 placeholder:text-body"
-              placeholder="••••••••"
-              required
-            />
-          </div>
-          <div class="flex items-start mb-5">
-            <label for="remember-alternative" class="flex items-center h-5">
+      <div className="md:mt-15 mt-10 flex flex-wrap justify-center items-center px-4">
+        <fieldset className="border border-gray-300 rounded-lg bg-white w-full max-w-md p-6 md:p-8 shadow-sm">
+          <form class="mx-auto" action="#" method="get" onSubmit={handleSubmit}>
+            <div class="mb-5">
+              <label
+                for="email-alternative"
+                class="block mb-2.5 text-sm font-medium text-heading"
+              >
+                Your email
+              </label>
               <input
-                id="remember-alternative"
-                type="checkbox"
-                value=""
-                class="w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft"
+                type="email"
+                id="email-alternative"
+                class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-none block md:w-sm w-full px-3 py-2.5 placeholder:text-body"
+                placeholder="name@flowbite.com"
                 required
               />
-              <p class="ms-2 text-sm font-medium text-heading select-none">
-                I agree with the{" "}
-                <a href="#" class="text-fg-brand hover:underline">
-                  terms and conditions
-                </a>
-                .
-              </p>
-            </label>
-          </div>
-          <button
-            type="submit"
-            class="text-white bg-brand box-border border-none border-transparent hover:bg-brand-strong font-medium leading-5 rounded-none text-sm px-4 py-2.5 focus:outline-none"
-          >
-            Submit
-          </button>
-          <div class="mt-4">
+            </div>
+            <div class="mb-5">
+              <label
+                for="password-alternative"
+                class="block mb-2.5 text-sm font-medium text-heading"
+              >
+                Your password
+              </label>
+              <input
+                type="password"
+                id="password-alternative"
+                class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-none block md:w-sm w-full px-3 py-2.5 placeholder:text-body"
+                placeholder="••••••••"
+                required
+              />
+            </div>
+            <div class="flex items-start mb-5">
+              <label for="remember-alternative" class="flex items-center h-5">
+                <input
+                  id="remember-alternative"
+                  type="checkbox"
+                  value=""
+                  class="w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft"
+                  required
+                />
+                <p class="ms-2 text-sm font-medium text-heading select-none">
+                  I agree with the{" "}
+                  <a href="#" class="text-fg-brand hover:underline">
+                    terms and conditions
+                  </a>
+                  .
+                </p>
+              </label>
+            </div>
             <button
-              type="button"
-              class="w-full flex items-center justify-center gap-3 text-heading bg-white border border-default-medium hover:bg-neutral-secondary-soft focus:ring-4 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none"
+              type="submit"
+              class="text-white bg-brand box-border border-none border-transparent hover:bg-brand-strong font-medium leading-5 rounded-none text-sm px-4 py-2.5 focus:outline-none"
             >
-              <GoogleIcon />
-              Login with Google
+              Submit
             </button>
-          </div>
-        </form>
+            <div class="mt-4">
+              <button
+                type="button"
+                class="w-full flex items-center justify-center gap-3 text-heading bg-white border border-default-medium hover:bg-neutral-secondary-soft focus:ring-4 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none"
+              >
+                <GoogleIcon />
+                Login with Google
+              </button>
+            </div>
+          </form>
+        </fieldset>
       </div>
     </>
   );

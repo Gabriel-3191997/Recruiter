@@ -44,12 +44,12 @@ function JobCard({ job }) {
   );
 }
 
-function JobList() {
+function ContractList() {
   const [showMore, setShowMore] = useState(false);
 
   return (
     <>
-      {/* remote job listing */}
+      {/* contract job listing */}
       <div className="flex-1 flex items-center justify-between md:mx-0 mx-3">
         <h3 className="text-left capitalize font-sans md:text-md text-xl md:py-3">
           find a job
@@ -86,5 +86,4 @@ function JobList() {
   );
 }
 
-export default JobList;
-
+export default ContractList;

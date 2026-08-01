@@ -1,17 +1,28 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 # Recruiter
+
+A job board platform tailored to assisted employers find the best for recruitment. Also giving applicant the opportunity to get hired by recruiters.
+
+
+### Features
+
+- Automatic shortlisting applicant - matches job description against applicant's resume
+- Recruiter gets notified via email address of short-listed applicants
+- Create a recruiter's profile for job posting
+- Recruiter's dashboard
+- Resume Builder aids applicants tailored their resumes for a perfect hiring.
+- Share job post via copy link under
+
+
+#### Work-Flow (Applicant)
+
+- Site loads applicant's browse job by filtering per categories
+- Applicant view job description
+- Create/Login applicant's account in applying for any job of choice
+
+
+#### Work-Flow (Employer)
+
+- Create/Login Employer's profile
+- Track applications (Total Short-listed applicants, Overview applicants)
+- Scheduled interviews
+- Notification emails to shortlisted and unfortunate applicants
