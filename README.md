@@ -28,10 +28,26 @@ A job board platform tailored to assisted employers find the best for recruitmen
 - Notification emails to shortlisted and unfortunate applicants
 
 
+#### Local Development
+
+Client-side
+
+```cd recruiter```
+
 ```npm install```
 
 
 ```npm run dev```
 
+Server-side
+
 
 Live Demo: 
+
+
+#### Technologies
+
+- ReactJS
+- TailwindCSS
+- ExpressJS
+- MYSQL
