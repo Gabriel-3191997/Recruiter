@@ -29,6 +29,8 @@ A job board platform tailored to assisted employers find the best for recruitmen
 
 
 ```npm install```
+
+
 ```npm run dev```
 
 
