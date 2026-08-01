@@ -28,8 +28,8 @@ A job board platform tailored to assisted employers find the best for recruitmen
 - Notification emails to shortlisted and unfortunate applicants
 
 
-```npm install``
-```npm run dev```
+```npm install
+```npm run dev
 
 
 Live Demo: 
