@@ -42,6 +42,16 @@ Client-side
 Server-side
 
 
+```cd server```
+
+```npm run start```
+
+
+#### Production
+
+- cloudflare
+
+
 Live Demo: 
 
 
