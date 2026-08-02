@@ -10,7 +10,7 @@ A job board platform tailored to assist employers find the best for recruitment.
 - Create a recruiter's profile for job posting
 - Recruiter's dashboard
 - Resume Builder aids applicants tailored their resumes for a perfect hiring.
-- Share job post via copy link under
+- Share job post
 
 
 #### Work-Flow (Applicant)
