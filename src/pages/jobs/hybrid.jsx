@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "../../components/heading";
-import JobList from "../job_listing";
+import HybridList from "../hybrid_job_listing";
 
 class Hybrid extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class Hybrid extends React.Component {
       <>
         <div className="container mx-auto py-10">
           <Heading />
-          <JobList />
+          <HybridList />
         </div>
       </>
     );

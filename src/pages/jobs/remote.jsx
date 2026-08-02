@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "../../components/heading";
-import JobList from "../job_listing";
+import RemoteList from "../remote_job_listing";
 
 class Remote extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class Remote extends React.Component {
       <>
         <div className="container mx-auto py-10">
           <Heading />
-          <JobList />
+          <RemoteList />
         </div>
       </>
     );

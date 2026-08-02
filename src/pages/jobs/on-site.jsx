@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "../../components/heading";
-import JobList from "../job_listing";
+import OnSiteList from "../on-site_listing";
 
 class OnSite extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class OnSite extends React.Component {
       <>
         <div className="container mx-auto py-10">
           <Heading />
-          <JobList />
+          <OnSiteList />
         </div>
       </>
     );

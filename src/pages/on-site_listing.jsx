@@ -9,7 +9,6 @@ const JOBS = [
   { title: "financial analyst", company: "FinBridge" },
   { title: "data scientist", company: "DataWorks" },
   { title: "hr manager", company: "GlobalCorp" },
-  { title: "Data Analysts", company: "FaceBook" },
 ];
 
 function JobCard({ job }) {
@@ -45,12 +44,12 @@ function JobCard({ job }) {
   );
 }
 
-function InternshipListing() {
+function OnSiteList() {
   const [showMore, setShowMore] = useState(false);
 
   return (
     <>
-      {/* internship job listing */}
+      {/* contract job listing */}
       <div className="flex-1 flex items-center justify-between md:mx-0 mx-3">
         <h3 className="text-left capitalize font-sans md:text-md text-xl md:py-3">
           find a job
@@ -87,4 +86,4 @@ function InternshipListing() {
   );
 }
 
-export default InternshipListing;
+export default OnSiteList;
